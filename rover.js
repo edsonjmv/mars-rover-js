@@ -61,7 +61,7 @@ function goForward(myRover) {
       break;
   }
 
-  console.log("New Rover Position: [" + myRover.position[0] + ", " + myRover.position[1] + "]");
+  console.log("New Rover Position: [" + myRover.position[0] + ", " + myRover.position[1] + "] - Rover Direction: " + myRover.direction);
 }
 
 function goBackward(myRover) {
@@ -96,7 +96,7 @@ function goBackward(myRover) {
       break;
   }
 
-  console.log("New Rover Position: [" + myRover.position[0] + ", " + myRover.position[1] + "]");
+  console.log("New Rover Position: [" + myRover.position[0] + ", " + myRover.position[1] + "] - Rover Direction: " + myRover.direction);
 }
 
 var possibleDirections = ["N", "E", "S", "W"];
